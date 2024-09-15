@@ -13,15 +13,15 @@ export default function Header() {
                 </Link>
             </div>
                 <ul className="flex items-center gap-6 text-sm font-light text-muted-foreground sm">
-                    <li href='/blog' className="transition-colors hover:text-foreground">
-                        Blog
-                    </li>
-                    <li href='/projects'className="transition-colors hover:text-foreground>
-                        Projects
-                    </li>
-                    <li href='/contact' className="transition-colors hover:text-foreground>
-                        Contact
-                    </li>
+                <li className='transition-colors hover:text-foreground'>
+                    <Link href='/blog'>Blog</Link>
+                </li>
+                <li className='transition-colors hover:text-foreground'>
+                    <Link href='/projects'>Projects</Link>
+                </li>
+                <li className='transition-colors hover:text-foreground'>
+                    <Link href='/contact'>Contact</Link>
+                </li>
                 </ul>
                 <div>
                     <ThemeToggle />

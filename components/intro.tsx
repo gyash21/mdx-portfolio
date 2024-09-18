@@ -7,8 +7,8 @@ export default function Intro() {
       <div className='mt-2 flex-1 md:mt-0'>
         <h1 className='title no-underline'>Hey, I&#39;m Yash</h1>
         <p className='mt-3 font-light text-muted-foreground'>
-          I&#39;m a software engineer from Pune I&#39;m
-          passionate developer with experience with React, Nextjs and in backend with Springboot and Nodejs.
+          I&#39;m a Full-Stack Developer from Pune, India. I&#39;m
+          seasoned with tech stacks like React, Node, and MongoDB.
         </p>
       </div>
       <div className='relative'>
@@ -16,8 +16,8 @@ export default function Intro() {
           className='flex-1 rounded-lg grayscale'
           src={authorImage}
           alt='Yash Gupta'
-          width={170}
-          height={170}
+          width={175}
+          height={175}
           priority
         />
       </div>

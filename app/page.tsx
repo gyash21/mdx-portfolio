@@ -1,20 +1,15 @@
-import Intro from "@/components/intro";
-import { MDXRemote } from "next-mdx-remote";
+import Intro from '@/components/intro'
+import RecentPosts from '@/components/recent-posts'
+import RecentProjects from '@/components/recent-projects'
 
 export default function Home() {
-    const content = `
-    # Hello, world!`
-
-
   return (
-    <div>
-      <section className="py-24">
-        <div className="container max-w-3xl">
-          <Intro />
-          <MDXRemote source={content} />
-        </div>
-
-      </section>
-    </div>
-  );
+    <section className='pb-24 pt-40'>
+      <div className='container max-w-3xl'>
+        <Intro />
+        <RecentPosts />
+        <RecentProjects />
+      </div>
+    </section>
+  )
 }
